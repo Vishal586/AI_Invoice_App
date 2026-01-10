@@ -59,3 +59,31 @@ PORT=3000
 GEMINI_API_KEY=your_google_generative_ai_api_key
 ```
 
+- PORT – Port on which the server runs
+- GEMINI_API_KEY – API key for Google Generative AI (Gemini)
+
+## 📡 API Endpoints
+### Upload & Process Invoice
+
+POST /api/invoice/upload
+- Description: Uploads an invoice file and extracts structured data using AI.
+- Request Type: multipart/form-data\
+- Form Data:
+   - file – Invoice PDF or image
+
+Response Example:-
+```bash
+{
+  "invoiceNumber": "INV-1023",
+  "invoiceDate": "2025-01-05",
+  "vendorName": "ABC Traders",
+  "items": [
+    {
+      "description": "Product A",
+      "quantity": 2,
+      "price": 500
+    }
+  ],
+  "totalAmount": 1000
+}
+```
