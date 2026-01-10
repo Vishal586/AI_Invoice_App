@@ -1,43 +1,34 @@
 # AI_Invoice_App
 
-🧾 AI Invoice Processing Application
+AI_Invoice_App is a web-based application that automates invoice processing using Artificial Intelligence. It allows users to upload invoice documents and automatically extracts essential information such as invoice number, invoice date, vendor details, item descriptions, quantities, prices, and total amounts. This application reduces manual data entry, improves accuracy, and streamlines invoice management workflows.
 
-The AI Invoice Processing Application is a smart web-based solution designed to automatically extract, analyze, and manage invoice data using AI. This project simplifies manual invoice handling by allowing users to upload invoice files and retrieve structured information such as invoice number, date, vendor details, line items, and total amount.
+The system leverages AI-powered document understanding to handle invoices in different formats and presents the extracted data in a structured and user-friendly interface, making it suitable for real-world business and accounting use cases.
 
-The application leverages AI-powered document understanding to accurately parse invoices in different formats, reducing human effort and minimizing errors. It provides a seamless interface for uploading invoices, processing them in real time, and displaying extracted data in an organized and user-friendly manner.
+---
 
-🚀 Key Features
+## ✨ Features
 
-Upload and process invoice documents (PDF/images)
+- Upload invoice files (PDF or image formats)
+- AI-based invoice data extraction
+- Automatic identification of key invoice fields
+- Real-time invoice processing
+- Clean and responsive user interface
+- Error handling for unsupported or invalid files
 
-AI-based invoice data extraction
+---
 
-Automatic identification of key invoice fields
+## 🛠️ Tech Stack
 
-Fast and accurate document parsing
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js, Express.js  
+- **AI Integration:** Google Generative AI (Gemini)  
+- **Other Tools:** REST APIs, File upload & processing libraries
 
-Clean and responsive user interface
+---
 
-Error handling for unsupported or invalid files
+## ✅ Installation & Setup
 
-🛠️ Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Node.js / Express.js
-
-AI Integration: Google Generative AI (Gemini)
-
-Other Tools: REST APIs, File handling libraries
-
-🎯 Use Cases
-
-Automating invoice data entry
-
-Reducing manual accounting workload
-
-Digitizing and organizing business invoices
-
-Improving accuracy in financial record keeping
-
-This project demonstrates practical usage of AI in real-world business automation and highlights how intelligent systems can streamline traditional document-processing workflows.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/AI_Invoice_App.git
+cd AI_Invoice_App
