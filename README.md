@@ -1,4 +1,4 @@
-# AI_Invoice_App
+# AI Invoice App
 
 AI_Invoice_App is a web-based application that automates invoice processing using Artificial Intelligence. It allows users to upload invoice documents and automatically extracts essential information such as invoice number, invoice date, vendor details, item descriptions, quantities, prices, and total amounts. This application reduces manual data entry, improves accuracy, and streamlines invoice management workflows.
 
@@ -87,3 +87,23 @@ Response Example:-
   "totalAmount": 1000
 }
 ```
+
+## Health Check
+### GET /api/health
+- Description: Checks if the server is running.
+- Response:-
+```bash
+{
+  "status": "Server is running"
+}
+```
+
+## 🎯 Project Objective
+- The objective of AI Invoice App is to demonstrate the practical implementation of AI in automating document processing tasks. It showcases how intelligent systems can reduce operational effort, enhance accuracy, and modernize traditional invoice handling processes.
+
+## 📌 Future Enhancements
+- Database integration for storing invoices
+- User authentication and role management
+- Invoice history and search functionality
+- Export extracted data to Excel or PDF
+- Multi-language invoice support
