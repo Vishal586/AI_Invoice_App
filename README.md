@@ -19,7 +19,7 @@ The system leverages AI-powered document understanding to handle invoices in dif
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** React.js + Vite, Tailwind CSS
 - **Backend:** Node.js, Express.js  
 - **AI Integration:** Google Generative AI (Gemini)  
 - **Other Tools:** REST APIs, File upload & processing libraries
@@ -32,7 +32,30 @@ The system leverages AI-powered document understanding to handle invoices in dif
 ```bash
 git clone https://github.com/your-username/AI_Invoice_App.git
 cd AI_Invoice_App
+```
 
-### Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
+```
+
+### 3. Configure Environment Variables
+Create a .env file in the root directory and add the required values (see below).
+
+### 4. Start the Server
+```bash
+npm start
+```
+
+The application will run on:-
+```bash
+http://localhost:3000
+```
+
+## 🔐 Environment Variables
+Create a .env file in the root directory and configure the following variables:-
+```bash
+PORT=3000
+GEMINI_API_KEY=your_google_generative_ai_api_key
+```
+
