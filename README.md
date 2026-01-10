@@ -32,3 +32,7 @@ The system leverages AI-powered document understanding to handle invoices in dif
 ```bash
 git clone https://github.com/your-username/AI_Invoice_App.git
 cd AI_Invoice_App
+
+### Install Dependencies
+```bash
+npm install
