@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://ai-invoice-app-backend-mm2x.onrender.com";
 
 export const API_PATHS = {
     AUTH: {
@@ -21,4 +21,5 @@ export const API_PATHS = {
         GENERATE_REMINDER: "/api/ai/generate-reminder",
         GET_DASHBOARD_SUMMARY: "/api/ai/dashboard-summary"
     }
+
 };
