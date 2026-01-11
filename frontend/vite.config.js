@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // Your backend URL
+        target: 'https://ai-invoice-app-1-backend.onrender.com', // Your backend URL
         changeOrigin: true,
       },
     },
