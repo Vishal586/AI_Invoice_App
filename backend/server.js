@@ -22,11 +22,6 @@ app.use(express.json());
 // Database
 connectDB();
 
-// Health check
-app.get("/", (req, res) => {
-    res.status(200).send("API is running ✅");
-});
-
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/invoices", invoiceRoutes);
@@ -41,11 +36,17 @@ app.use((err, req, res, next) => {
     });
 });
 
+// Health check
+app.get("/", (req, res) => {
+    res.status(200).send("API is running ✅");
+});
+
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
 
 
 
