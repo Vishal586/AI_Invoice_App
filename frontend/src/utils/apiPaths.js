@@ -1,4 +1,4 @@
-export const BASE_URL = "https://ai-invoice-app-backend2.onrender.com/";
+export const BASE_URL = "https://ai-invoice-app-1-backend2.onrender.com/";
 
 export const API_PATHS = {
     AUTH: {
@@ -23,5 +23,6 @@ export const API_PATHS = {
     }
 
 };
+
 
 
