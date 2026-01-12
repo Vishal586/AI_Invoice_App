@@ -9,7 +9,7 @@
     "deploy": "npm run build && node server.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "keywords": [],
   "author": "",
